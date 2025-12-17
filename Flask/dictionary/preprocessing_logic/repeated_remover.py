@@ -20,7 +20,7 @@ def _repeated_remover(sen_index : int, sentence : str, min_repeats: int, rules :
     """
      
     # 1-1. 반복 탐지
-    pattern = re.compile(rf"(\w+)\1{{{min_repeats - 1},}}"
+    pattern = re.compile(rf"(\w)\1{{{min_repeats - 1},}}"
                          rf"|([!?.,])\2{{{min_repeats - 1},}}"
                          rf"|([\u3131-\u318E])\3{{{min_repeats - 1},}}")
     matches = pattern.finditer(sentence) # 탐지

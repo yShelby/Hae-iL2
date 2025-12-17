@@ -1,0 +1,1596 @@
+[
+    {
+        "word": "가드올려",
+        "word_root": "가드",
+        "polarity": "-1",
+        "label": "불안/걱정",
+        "tag": "#불안한",
+        "confidence": 0.7,
+        "source": "claude"
+    },
+    {
+        "word": "갑분띠",
+        "word_root": "갑",
+        "polarity": "-1",
+        "label": "분노/짜증",
+        "tag": "#짜증나는",
+        "confidence": 0.7,
+        "source": "claude"
+    },
+    {
+        "word": "강퇴",
+        "word_root": "강",
+        "polarity": "-1",
+        "label": "분노/짜증",
+        "tag": "#짜증나는",
+        "confidence": 0.7,
+        "source": "claude"
+    },
+    {
+        "word": "강추",
+        "word_root": "강추",
+        "polarity": "2",
+        "label": "기쁨/행복",
+        "tag": "#기쁜",
+        "confidence": 0.73,
+        "source": "claude"
+    },
+    {
+        "word": "갠소",
+        "word_root": "개",
+        "polarity": "1",
+        "label": "기쁨/행복",
+        "tag": "#기쁜",
+        "confidence": 0.72,
+        "source": "claude"
+    },
+    {
+        "word": "개짓하다",
+        "word_root": "개짓하",
+        "polarity": "-2",
+        "label": "분노/짜증",
+        "tag": "#짜증나는",
+        "confidence": 0.74,
+        "source": "claude"
+    },
+    {
+        "word": "거들먹대다",
+        "word_root": "거들먹",
+        "polarity": "-1",
+        "label": "분노/짜증",
+        "tag": "#짜증나는",
+        "confidence": 0.7,
+        "definition": "신이 나서 잘난 체하며 자꾸 함부로 거만하게 행동하다",
+        "source": "claude"
+    },
+    {
+        "word": "그자식",
+        "word_root": "그",
+        "polarity": "-1",
+        "label": "분노/짜증",
+        "tag": "#짜증나는",
+        "confidence": 0.7,
+        "source": "claude"
+    },
+    {
+        "word": "거치적거치적",
+        "word_root": "거치적",
+        "polarity": "-1",
+        "label": "불안/걱정",
+        "tag": "#불안한",
+        "confidence": 0.7,
+        "source": "claude"
+    },
+    {
+        "word": "건들건들",
+        "word_root": "건들건들",
+        "polarity": "-1",
+        "label": "분노/짜증",
+        "tag": "#짜증나는",
+        "confidence": 0.7,
+        "definition": "일이 없거나 착실하지 않아 빈둥빈둥하거나, 건방지게 행동하는 태도[4]."
+    },
+    {
+        "word": "겐트위한",
+        "word_root": "겐트",
+        "polarity": "-1",
+        "label": "불안/걱정",
+        "tag": "#불안한",
+        "confidence": 0.7
+    },
+    {
+        "word": "관심병",
+        "word_root": "관심",
+        "polarity": "-1",
+        "label": "불안/걱정",
+        "tag": "#불안한",
+        "confidence": 0.7,
+        "source": "claude"
+    },
+    {
+        "word": "광탈",
+        "word_root": "광",
+        "polarity": "-1",
+        "label": "슬픔/우울",
+        "tag": "#허탈한",
+        "confidence": 0.7,
+        "source": "claude"
+    },
+    {
+        "word": "괘씸하고",
+        "word_root": "괘씸",
+        "polarity": "-1",
+        "label": "분노/짜증",
+        "tag": "#불쾌한",
+        "confidence": 0.85,
+        "source": "claude"
+    },
+    {
+        "word": "귀요미",
+        "word_root": "귀요",
+        "polarity": "2",
+        "label": "기쁨/행복",
+        "tag": "#귀여운",
+        "confidence": 0.96,
+        "source": "claude"
+    },
+    {
+        "word": "귀차니즘",
+        "word_root": "귀",
+        "polarity": "-1",
+        "label": "지루/심심",
+        "tag": "#무기력한",
+        "confidence": 0.7,
+        "source": "claude"
+    },
+    {
+        "word": "그리웁다",
+        "word_root": "그리웁",
+        "polarity": "1",
+        "label": "슬픔/우울",
+        "tag": "#그리운",
+        "confidence": 0.85,
+        "source": "claude"
+    },
+    {
+        "word": "그린라이트",
+        "word_root": "그린",
+        "polarity": "2",
+        "label": "기쁨/행복",
+        "tag": "#기쁜",
+        "confidence": 0.85,
+        "source": "claude"
+    },
+    {
+        "word": "극혐",
+        "word_root": "극",
+        "polarity": "-2",
+        "label": "분노/짜증",
+        "tag": "#혐오스러운",
+        "confidence": 0.7,
+        "source": "claude"
+    },
+    {
+        "word": "금사빠",
+        "word_root": "금사",
+        "polarity": "-1",
+        "label": "중립/기타",
+        "tag": "",
+        "confidence": 0.7,
+        "source": "claude"
+    },
+    {
+        "word": "길미",
+        "word_root": "길미",
+        "polarity": "1",
+        "label": "평온/만족",
+        "tag": "#만족스러운",
+        "confidence": 0.7,
+        "source": "claude"
+    },
+    {
+        "word": "ㄲ",
+        "word_root": "ㄲ",
+        "polarity": "-1",
+        "label": "중립/기타",
+        "tag": "",
+        "confidence": 0.7,
+        "source": "claude"
+    },
+    {
+        "word": "깨갱대다",
+        "word_root": "깨갱",
+        "polarity": "-1",
+        "label": "슬픔/우울",
+        "tag": "#불쌍한",
+        "confidence": 0.705,
+        "source": "claude"
+    },
+    {
+        "word": "깽깽대다",
+        "word_root": "깽깽대",
+        "polarity": "-1",
+        "label": "슬픔/우울",
+        "tag": "#불쌍한",
+        "confidence": 0.7,
+        "source": "claude"
+    },
+    {
+        "word": "꺼덕대다",
+        "word_root": "꺼덕",
+        "polarity": "-1",
+        "label": "분노/짜증",
+        "tag": "#경망스러운",
+        "confidence": 0.7,
+        "source": "claude"
+    },
+    {
+        "word": "꺼덕이다",
+        "word_root": "꺼덕이",
+        "polarity": "-1",
+        "label": "분노/짜증",
+        "tag": "#경망스러운",
+        "confidence": 0.7,
+        "source": "claude"
+    },
+    {
+        "word": "껄렁껄렁한",
+        "word_root": "껄렁",
+        "polarity": "-1",
+        "label": "분노/짜증",
+        "tag": "#경망스러운",
+        "confidence": 0.7,
+        "source": "claude"
+    },
+    {
+        "word": "꽁알대다",
+        "word_root": "꽁알",
+        "polarity": "-1",
+        "label": "분노/짜증",
+        "tag": "#짜증나는",
+        "confidence": 0.65,
+        "source": "claude"
+    },
+    {
+        "word": "끼깅대다",
+        "word_root": "끼깅",
+        "polarity": "-1",
+        "label": "분노/짜증",
+        "tag": "#짜증나는",
+        "confidence": 0.65,
+        "source": "claude"
+    },
+    {
+        "word": "낄끼빠빠",
+        "word_root": "끼",
+        "polarity": "-1",
+        "label": "분노/짜증",
+        "tag": "#짜증나는",
+        "confidence": 0.65,
+        "source": "claude"
+    },
+    {
+        "word": "ㄳ",
+        "word_root": "ㄳ",
+        "polarity": "1",
+        "label": "기쁨/행복",
+        "tag": "#기쁜",
+        "confidence": 0.65,
+        "source": "claude"
+    },
+    {
+        "word": "ㄴㅇㅈ",
+        "word_root": "ㄴ",
+        "polarity": "-1",
+        "label": "분노/짜증",
+        "tag": "#짜증나는",
+        "confidence": 0.65,
+        "source": "claude"
+    },
+    {
+        "word": "나가자빠지는",
+        "word_root": "나가자빠지",
+        "polarity": "-2",
+        "label": "슬픔/우울",
+        "tag": "#절망적인",
+        "confidence": 0.7,
+        "source": "claude"
+    },
+    {
+        "word": "남사스럽다",
+        "word_root": "남사스럽",
+        "polarity": "-1",
+        "label": "슬픔/우울",
+        "tag": "#부끄러운",
+        "confidence": 0.85,
+        "source": "claude"
+    },
+    {
+        "word": "낮잡는",
+        "word_root": "낮잡",
+        "polarity": "-2",
+        "label": "분노/짜증",
+        "tag": "#불쾌한",
+        "confidence": 0.85,
+        "source": "claude"
+    },
+    {
+        "word": "너프",
+        "word_root": "너",
+        "polarity": "-1",
+        "label": "분노/짜증",
+        "tag": "#짜증나는",
+        "confidence": 0.65,
+        "source": "claude"
+    },
+    {
+        "word": "넌씨눈",
+        "word_root": "넣",
+        "polarity": "-2",
+        "label": "분노/짜증",
+        "tag": "#짜증나는",
+        "confidence": 0.85,
+        "source": "claude"
+    },
+    {
+        "word": "넘사",
+        "word_root": "넘",
+        "polarity": "1",
+        "label": "기쁨/행복",
+        "tag": "#기쁜",
+        "confidence": 0.7,
+        "source": "claude"
+    },
+    {
+        "word": "노잼",
+        "word_root": "노",
+        "polarity": "-1",
+        "label": "지루/심심",
+        "tag": "#지루한",
+        "confidence": 0.75,
+        "source": "claude"
+    },
+    {
+        "word": "노인정",
+        "word_root": "노인정",
+        "polarity": "-1",
+        "label": "슬픔/우울",
+        "tag": "#허탈한",
+        "confidence": 0.65,
+        "source": "claude"
+    },
+    {
+        "word": "느개비",
+        "word_root": "느개",
+        "polarity": "-2",
+        "label": "분노/짜증",
+        "tag": "#짜증나는",
+        "confidence": 0.7,
+        "source": "claude"
+    },
+    {
+        "word": "느글거리는",
+        "word_root": "느글",
+        "polarity": "-2",
+        "label": "분노/짜증",
+        "tag": "#짜증나는",
+        "confidence": 0.7,
+        "source": "claude"
+    },
+    {
+        "word": "느금마",
+        "word_root": "느금",
+        "polarity": "-2",
+        "label": "분노/짜증",
+        "tag": "#짜증나는",
+        "confidence": 0.7,
+        "source": "claude"
+    },
+    {
+        "word": "느물거려",
+        "word_root": "느물거리",
+        "polarity": "-1",
+        "label": "분노/짜증",
+        "tag": "#짜증나는",
+        "confidence": 0.7,
+        "source": "claude"
+    },
+    {
+        "word": "능글맞고",
+        "word_root": "능글",
+        "polarity": "-1",
+        "label": "분노/짜증",
+        "tag": "#짜증나는",
+        "confidence": 0.75,
+        "source": "claude"
+    },
+    {
+        "word": "ㄷㅊ",
+        "word_root": "ㄷ",
+        "polarity": "-1",
+        "label": "분노/짜증",
+        "tag": "#짜증나는",
+        "confidence": 0.65,
+        "source": "claude"
+    },
+    {
+        "word": "돌겠네",
+        "word_root": "돌",
+        "polarity": "-2",
+        "label": "분노/짜증",
+        "tag": "#짜증나는",
+        "confidence": 0.7,
+        "source": "claude"
+    },
+    {
+        "word": "득템",
+        "word_root": "득",
+        "polarity": "2",
+        "label": "기쁨/행복",
+        "tag": "#기쁜",
+        "confidence": 0.85,
+        "source": "claude"
+    },
+    {
+        "word": "딸바보",
+        "word_root": "땋",
+        "polarity": "1",
+        "label": "기쁨/행복",
+        "tag": "#기쁜",
+        "confidence": 0.65,
+        "source": "claude"
+    },
+    {
+        "word": "떡실신",
+        "word_root": "떡",
+        "polarity": "-2",
+        "label": "불안/걱정",
+        "tag": "#불안한",
+        "confidence": 0.65,
+        "source": "claude"
+    },
+    {
+        "word": "또라이",
+        "word_root": "또라이",
+        "polarity": "-2",
+        "label": "분노/짜증",
+        "tag": "#불쾌한",
+        "confidence": 0.7,
+        "source": "claude"
+    },
+    {
+        "word": "똥똥한",
+        "word_root": "똥",
+        "polarity": "-1",
+        "label": "분노/짜증",
+        "tag": "#불쾌한",
+        "confidence": 0.7,
+        "source": "claude"
+    },
+    {
+        "word": "로맨티스트",
+        "word_root": "로맨티스트",
+        "polarity": "1",
+        "label": "기쁨/행복",
+        "tag": "#낭만적인",
+        "confidence": 0.7,
+        "source": "claude"
+    },
+    {
+        "word": "루머",
+        "word_root": "루머",
+        "polarity": "-1",
+        "label": "불안/걱정",
+        "tag": "#불안한",
+        "confidence": 0.7,
+        "source": "claude"
+    },
+    {
+        "word": "리즈시절",
+        "word_root": "리",
+        "polarity": "1",
+        "label": "기쁨/행복",
+        "tag": "#기쁜",
+        "confidence": 0.7,
+        "source": "claude"
+    },
+    {
+        "word": "마스터피스",
+        "word_root": "마스터",
+        "polarity": "2",
+        "label": "기쁨/행복",
+        "tag": "#기쁜",
+        "confidence": 0.75,
+        "source": "claude"
+    },
+    {
+        "word": "마초맨",
+        "word_root": "마초",
+        "polarity": "1",
+        "label": "기쁨/행복",
+        "tag": "#기쁜",
+        "confidence": 0.7,
+        "source": "claude"
+    },
+    {
+        "word": "말대답을",
+        "word_root": "말대답",
+        "polarity": "-2",
+        "label": "분노/짜증",
+        "tag": "#짜증나는",
+        "confidence": 0.75,
+        "source": "claude"
+    },
+    {
+        "word": "맵짜게",
+        "word_root": "맵짜",
+        "polarity": "-1",
+        "label": "분노/짜증",
+        "tag": "#짜증나는",
+        "confidence": 0.7,
+        "source": "claude"
+    },
+    {
+        "word": "먹튀",
+        "word_root": "먹튀",
+        "polarity": "-1",
+        "label": "분노/짜증",
+        "tag": "#불쾌한",
+        "confidence": 0.7,
+        "source": "claude"
+    },
+    {
+        "word": "멘붕",
+        "word_root": "메",
+        "polarity": "-2",
+        "label": "불안/걱정",
+        "tag": "#불안한",
+        "confidence": 0.75,
+        "source": "claude"
+    },
+    {
+        "word": "몸짱",
+        "word_root": "몸짱",
+        "polarity": "1",
+        "label": "기쁨/행복",
+        "tag": "#기쁜",
+        "confidence": 0.7,
+        "source": "claude"
+    },
+    {
+        "word": "무가치",
+        "word_root": "무가치",
+        "polarity": "-1",
+        "label": "슬픔/우울",
+        "tag": "#우울한",
+        "confidence": 0.7,
+        "source": "claude"
+    },
+    {
+        "word": "무자비한",
+        "word_root": "무자비",
+        "polarity": "-1",
+        "label": "분노/짜증",
+        "tag": "#불쾌한",
+        "confidence": 0.7,
+        "source": "claude"
+    },
+    {
+        "word": "무지러져서",
+        "word_root": "무지러지",
+        "polarity": "-1",
+        "label": "슬픔/우울",
+        "tag": "#우울한",
+        "confidence": 0.7,
+        "source": "claude"
+    },
+    {
+        "word": "므흣하다",
+        "word_root": "므흣",
+        "polarity": "1",
+        "label": "기쁨/행복",
+        "tag": "#기쁜",
+        "confidence": 0.7,
+        "source": "claude"
+    },
+    {
+        "word": "미띤",
+        "word_root": "미띤",
+        "polarity": "-1",
+        "label": "분노/짜증",
+        "tag": "#불쾌한",
+        "confidence": 0.7,
+        "source": "claude"
+    },
+    {
+        "word": "ㅂㅅ",
+        "word_root": "ㅂㅅ",
+        "polarity": "-1",
+        "label": "분노/짜증",
+        "tag": "#불쾌한",
+        "confidence": 0.7,
+        "source": "claude"
+    },
+    {
+        "word": "반품남",
+        "word_root": "반품",
+        "polarity": "-1",
+        "label": "슬픔/우울",
+        "tag": "#허탈한",
+        "confidence": 0.7,
+        "source": "claude"
+    },
+    {
+        "word": "발컨",
+        "word_root": "발",
+        "polarity": "-1",
+        "label": "슬픔/우울",
+        "tag": "#허탈한",
+        "confidence": 0.65,
+        "source": "claude"
+    },
+    {
+        "word": "버프",
+        "word_root": "버프",
+        "polarity": "1",
+        "label": "기쁨/행복",
+        "tag": "#기쁜",
+        "confidence": 0.7,
+        "source": "claude"
+    },
+    {
+        "word": "볍신",
+        "word_root": "볍",
+        "polarity": "-2",
+        "label": "분노/짜증",
+        "tag": "#불쾌한",
+        "confidence": 0.75,
+        "source": "claude"
+    },
+    {
+        "word": "병맛",
+        "word_root": "병",
+        "polarity": "-1",
+        "label": "분노/짜증",
+        "tag": "#불쾌한",
+        "confidence": 0.7,
+        "source": "claude"
+    },
+    {
+        "word": "부자연스러운",
+        "word_root": "부자연",
+        "polarity": "-1",
+        "label": "불안/걱정",
+        "tag": "#불안한",
+        "confidence": 0.7,
+        "source": "claude"
+    },
+    {
+        "word": "부작용",
+        "word_root": "부작용",
+        "polarity": "-2",
+        "label": "불안/걱정",
+        "tag": "#불안한",
+        "confidence": 0.75,
+        "source": "claude"
+    },
+    {
+        "word": "부적격",
+        "word_root": "부적격",
+        "polarity": "-2",
+        "label": "슬픔/우울",
+        "tag": "#허탈한",
+        "confidence": 0.75,
+        "source": "claude"
+    },
+    {
+        "word": "부적당한",
+        "word_root": "부적당",
+        "polarity": "-1",
+        "label": "분노/짜증",
+        "tag": "#짜증나는",
+        "confidence": 0.7,
+        "source": "claude"
+    },
+    {
+        "word": "부정직",
+        "word_root": "부정직",
+        "polarity": "-2",
+        "label": "분노/짜증",
+        "tag": "#불쾌한",
+        "confidence": 0.75,
+        "source": "claude"
+    },
+    {
+        "word": "부정확하다",
+        "word_root": "부정확",
+        "polarity": "-1",
+        "label": "분노/짜증",
+        "tag": "#짜증나는",
+        "confidence": 0.7,
+        "source": "claude"
+    },
+    {
+        "word": "부조리",
+        "word_root": "부조리",
+        "polarity": "-2",
+        "label": "분노/짜증",
+        "tag": "#분노한",
+        "confidence": 0.75,
+        "source": "claude"
+    },
+    {
+        "word": "부조화",
+        "word_root": "부조화",
+        "polarity": "-2",
+        "label": "분노/짜증",
+        "tag": "#짜증나는",
+        "confidence": 0.75,
+        "source": "claude"
+    },
+    {
+        "word": "불만족",
+        "word_root": "불만족",
+        "polarity": "-2",
+        "label": "분노/짜증",
+        "tag": "#짜증나는",
+        "confidence": 0.75,
+        "source": "claude"
+    },
+    {
+        "word": "불만족하다",
+        "word_root": "불만족하",
+        "polarity": "-2",
+        "label": "분노/짜증",
+        "tag": "#짜증나는",
+        "confidence": 0.75,
+        "source": "claude"
+    },
+    {
+        "word": "불명예스러운",
+        "word_root": "불명예",
+        "polarity": "-1",
+        "label": "슬픔/우울",
+        "tag": "#수치스러운",
+        "confidence": 0.85,
+        "source": "claude"
+    },
+    {
+        "word": "불성실",
+        "word_root": "불성실",
+        "polarity": "-1",
+        "label": "분노/짜증",
+        "tag": "#불쾌한",
+        "confidence": 0.7,
+        "source": "claude"
+    },
+    {
+        "word": "불안전성",
+        "word_root": "불안전",
+        "polarity": "-2",
+        "label": "불안/걱정",
+        "tag": "#불안한",
+        "confidence": 0.85,
+        "source": "claude"
+    },
+    {
+        "word": "불안정한",
+        "word_root": "불안정",
+        "polarity": "-2",
+        "label": "불안/걱정",
+        "tag": "#불안한",
+        "confidence": 0.85,
+        "source": "claude"
+    },
+    {
+        "word": "불충분",
+        "word_root": "불충분",
+        "polarity": "-2",
+        "label": "슬픔/우울",
+        "tag": "#허탈한",
+        "confidence": 0.75,
+        "source": "claude"
+    },
+    {
+        "word": "불충분하다",
+        "word_root": "불충분하",
+        "polarity": "-2",
+        "label": "슬픔/우울",
+        "tag": "#허탈한",
+        "confidence": 0.75,
+        "source": "claude"
+    },
+    {
+        "word": "불편리",
+        "word_root": "불편리",
+        "polarity": "-2",
+        "label": "분노/짜증",
+        "tag": "#짜증나는",
+        "confidence": 0.75,
+        "source": "claude"
+    },
+    {
+        "word": "불평등한",
+        "word_root": "불평등",
+        "polarity": "-1",
+        "label": "분노/짜증",
+        "tag": "#불쾌한",
+        "confidence": 0.7,
+        "source": "claude"
+    },
+    {
+        "word": "불합격한",
+        "word_root": "불합격",
+        "polarity": "-2",
+        "label": "슬픔/우울",
+        "tag": "#허탈한",
+        "confidence": 0.75,
+        "source": "claude"
+    },
+    {
+        "word": "불합리",
+        "word_root": "불합리",
+        "polarity": "-2",
+        "label": "분노/짜증",
+        "tag": "#분노한",
+        "confidence": 0.75,
+        "source": "claude"
+    },
+    {
+        "word": "비추천",
+        "word_root": "비추",
+        "polarity": "-2",
+        "label": "분노/짜증",
+        "tag": "#불쾌한",
+        "confidence": 0.7,
+        "source": "claude"
+    },
+    {
+        "word": "비합리적인",
+        "word_root": "비합리",
+        "polarity": "-1",
+        "label": "분노/짜증",
+        "tag": "#짜증나는",
+        "confidence": 0.7,
+        "source": "claude"
+    },
+    {
+        "word": "비현실적",
+        "word_root": "비현",
+        "polarity": "-2",
+        "label": "불안/걱정",
+        "tag": "#비현실적인",
+        "confidence": 0.85,
+        "source": "claude"
+    },
+    {
+        "word": "비효율",
+        "word_root": "비효율",
+        "polarity": "-2",
+        "label": "분노/짜증",
+        "tag": "#비효율적인",
+        "confidence": 0.85,
+        "source": "claude"
+    },
+    {
+        "word": "빡도네",
+        "word_root": "빡",
+        "polarity": "-2",
+        "label": "분노/짜증",
+        "tag": "#분노한",
+        "confidence": 0.9,
+        "source": "theqoo[3]"
+    },
+    {
+        "word": "빡세네",
+        "word_root": "빡세",
+        "polarity": "-2",
+        "label": "분노/짜증",
+        "tag": "#힘든",
+        "confidence": 0.9,
+        "source": "kodobby[1]"
+    },    {
+        "word": "ㅊㅋ",
+        "word_root": "ㅊ",
+        "polarity": "1",
+        "label": "기쁨/행복",
+        "tag": "#기쁜",
+        "confidence": 0.75,
+        "source": "claude"
+    },
+    {
+        "word": "빵꾸똥꾸",
+        "word_root": "빵꾸",
+        "polarity": "-1",
+        "label": "분노/짜증",
+        "tag": "#장난스러운",
+        "confidence": 0.7,
+        "source": "claude"
+    },
+    {
+        "word": "빵셔틀",
+        "word_root": "빵",
+        "polarity": "-1",
+        "label": "슬픔/우울",
+        "tag": "#굴욕적인",
+        "confidence": 0.75,
+        "source": "claude"
+    },
+    {
+        "word": "뽀록",
+        "word_root": "뽀록",
+        "polarity": "1",
+        "label": "기쁨/행복",
+        "tag": "#유쾌한",
+        "confidence": 0.7,
+        "source": "claude"
+    },
+    {
+        "word": "ㅄ",
+        "word_root": "ㅄ",
+        "polarity": "-1",
+        "label": "분노/짜증",
+        "tag": "#모욕적인",
+        "confidence": 0.9,
+        "source": "claude"
+    },
+    {
+        "word": "ㅅㅂ",
+        "word_root": "ㅅ",
+        "polarity": "-1",
+        "label": "분노/짜증",
+        "tag": "#욕설",
+        "confidence": 0.9,
+        "source": "claude"
+    },
+    {
+        "word": "설레발",
+        "word_root": "설레발",
+        "polarity": "-1",
+        "label": "불안/걱정",
+        "tag": "#불안한",
+        "confidence": 0.7,
+        "source": "claude"
+    },
+    {
+        "word": "쇠고집",
+        "word_root": "고집",
+        "polarity": "-1",
+        "label": "분노/짜증",
+        "tag": "#짜증나는",
+        "confidence": 0.7,
+        "source": "claude"
+    },
+    {
+        "word": "수꼴",
+        "word_root": "수",
+        "polarity": "-1",
+        "label": "분노/짜증",
+        "tag": "#짜증나는",
+        "confidence": 0.65,
+        "source": "claude"
+    },
+    {
+        "word": "수면부족",
+        "word_root": "수면",
+        "polarity": "-2",
+        "label": "불안/걱정",
+        "tag": "#불안한",
+        "confidence": 0.96,
+        "source": "claude"
+    },
+    {
+        "word": "수치플",
+        "word_root": "수치",
+        "polarity": "-1",
+        "label": "슬픔/우울",
+        "tag": "#우울한",
+        "confidence": 0.7,
+        "source": "claude"
+    },
+    {
+        "word": "쉴드",
+        "word_root": "쉬",
+        "polarity": "1",
+        "label": "평온/만족",
+        "tag": "#안정된",
+        "confidence": 0.7,
+        "source": "claude"
+    },
+    {
+        "word": "시발비용",
+        "word_root": "시발",
+        "polarity": "-1",
+        "label": "분노/짜증",
+        "tag": "#짜증나는",
+        "confidence": 0.96,
+        "source": "search[1]"
+    },
+    {
+        "word": "신컨",
+        "word_root": "신컨",
+        "polarity": "1",
+        "label": "기쁨/행복",
+        "tag": "#신기한",
+        "confidence": 0.75,
+        "source": "claude"
+    },
+    {
+        "word": "심쿵",
+        "word_root": "심쿵",
+        "polarity": "2",
+        "label": "기쁨/행복",
+        "tag": "#설레는",
+        "confidence": 0.96,
+        "source": "claude"
+    },
+    {
+        "word": "ㅆ",
+        "word_root": "ㅆ",
+        "polarity": "1",
+        "label": "분석불가",
+        "tag": "#분석불가",
+        "confidence": 0.0,
+        "source": "claude"
+    },
+    {
+        "word": "썩소",
+        "word_root": "썩소",
+        "polarity": "-1",
+        "label": "분노/짜증",
+        "tag": "#썩소",
+        "confidence": 0.75,
+        "source": "claude"
+    },
+    {
+        "word": "썸",
+        "word_root": "썸",
+        "polarity": "1",
+        "label": "기쁨/행복",
+        "tag": "#설레는",
+        "confidence": 0.75,
+        "source": "claude"
+    },
+    {
+        "word": "ㅇㄴ",
+        "word_root": "ㅇ",
+        "polarity": "-1",
+        "label": "분석불가",
+        "tag": "#분석불가",
+        "confidence": 0.0,
+        "source": "claude"
+    },
+    {
+        "word": "안물안궁",
+        "word_root": "안물안궁",
+        "polarity": "-1",
+        "label": "분노/짜증",
+        "tag": "#무관심한",
+        "confidence": 0.96,
+        "source": "search[1,2,3]"
+    },
+    {
+        "word": "알못",
+        "word_root": "알",
+        "polarity": "-1",
+        "label": "슬픔/우울",
+        "tag": "#서투른",
+        "confidence": 0.75,
+        "source": "search[1,2]"
+    },
+    {
+        "word": "야필패",
+        "word_root": "야",
+        "polarity": "-1",
+        "label": "슬픔/우울",
+        "tag": "#패배한",
+        "confidence": 0.75,
+        "source": "claude"
+    },
+    {
+        "word": "어여뿌다",
+        "word_root": "어여",
+        "polarity": "2",
+        "label": "기쁨/행복",
+        "tag": "#기쁜",
+        "confidence": 0.7,
+        "source": "claude"
+    },
+    {
+        "word": "엄친아",
+        "word_root": "엄친",
+        "polarity": "2",
+        "label": "기쁨/행복",
+        "tag": "#기쁜",
+        "confidence": 0.7,
+        "source": "claude"
+    },
+    {
+        "word": "여병추",
+        "word_root": "여병",
+        "polarity": "-2",
+        "label": "슬픔/우울",
+        "tag": "#우울한",
+        "confidence": 0.65,
+        "source": "claude"
+    },
+    {
+        "word": "연덕",
+        "word_root": "연",
+        "polarity": "-1",
+        "label": "슬픔/우울",
+        "tag": "#우울한",
+        "confidence": 0.65,
+        "source": "claude"
+    },
+    {
+        "word": "열공",
+        "word_root": "열공",
+        "polarity": "1",
+        "label": "기쁨/행복",
+        "tag": "#기쁜",
+        "confidence": 0.7,
+        "source": "claude"
+    },
+    {
+        "word": "완소",
+        "word_root": "와",
+        "polarity": "2",
+        "label": "기쁨/행복",
+        "tag": "#기쁜",
+        "confidence": 0.7,
+        "source": "claude"
+    },
+    {
+        "word": "위꼴사",
+        "word_root": "위",
+        "polarity": "1",
+        "label": "기쁨/행복",
+        "tag": "#기쁜",
+        "confidence": 0.65,
+        "source": "claude"
+    },
+    {
+        "word": "존못",
+        "word_root": "존",
+        "polarity": "-2",
+        "label": "슬픔/우울",
+        "tag": "#우울한",
+        "confidence": 0.85,
+        "source": "claude"
+    },
+    {
+        "word": "존예",
+        "word_root": "졸",
+        "polarity": "2",
+        "label": "기쁨/행복",
+        "tag": "#기쁜",
+        "confidence": 0.96,
+        "source": "claude"
+    },
+    {
+        "word": "좌빨",
+        "word_root": "좌",
+        "polarity": "-1",
+        "label": "분노/짜증",
+        "tag": "#짜증나는",
+        "confidence": 0.7,
+        "source": "claude"
+    },
+    {
+        "word": "진지충",
+        "word_root": "진지",
+        "polarity": "-1",
+        "label": "분노/짜증",
+        "tag": "#짜증나는",
+        "confidence": 0.7,
+        "source": "claude"
+    },
+    {
+        "word": "ㅉㅉ",
+        "word_root": "ㅉ",
+        "polarity": "-1",
+        "label": "분노/짜증",
+        "tag": "#짜증나는",
+        "confidence": 0.7,
+        "source": "claude"
+    },
+    {
+        "word": "짝남",
+        "word_root": "짝",
+        "polarity": "1",
+        "label": "기쁨/행복",
+        "tag": "#기쁜",
+        "confidence": 0.75,
+        "source": "claude"
+    },
+    {
+        "word": "차도남",
+        "word_root": "차도",
+        "polarity": "1",
+        "label": "중립/기타",
+        "tag": "#차가운",
+        "confidence": 0.7,
+        "source": "claude"
+    },
+    {
+        "word": "ㅋㄷ",
+        "word_root": "ㅋ",
+        "polarity": "1",
+        "label": "기쁨/행복",
+        "tag": "#기쁜",
+        "confidence": 0.7,
+        "source": "claude"
+    },
+    {
+        "word": "칼빵",
+        "word_root": "칼",
+        "polarity": "-2",
+        "label": "분노/짜증",
+        "tag": "#격분한",
+        "confidence": 0.75,
+        "source": "claude"
+    },
+    {
+        "word": "컹스",
+        "word_root": "컹",
+        "polarity": "-1",
+        "label": "불안/걱정",
+        "tag": "#불안한",
+        "confidence": 0.7,
+        "source": "claude"
+    },
+    {
+        "word": "킹왕짱",
+        "word_root": "킹",
+        "polarity": "2",
+        "label": "기쁨/행복",
+        "tag": "#기쁜",
+        "confidence": 0.75,
+        "source": "claude"
+    },
+    {
+        "word": "태움",
+        "word_root": "태우",
+        "polarity": "-1",
+        "label": "분노/짜증",
+        "tag": "#짜증나는",
+        "confidence": 0.7,
+        "source": "claude"
+    },
+    {
+        "word": "틀딱",
+        "word_root": "틀",
+        "polarity": "-1",
+        "label": "분노/짜증",
+        "tag": "#짜증나는",
+        "confidence": 0.7,
+        "source": "claude"
+    },
+    {
+        "word": "파오후",
+        "word_root": "파",
+        "polarity": "-1",
+        "label": "분노/짜증",
+        "tag": "#짜증나는",
+        "confidence": 0.7,
+        "source": "claude"
+    },
+    {
+        "word": "하드캐리",
+        "word_root": "하드",
+        "polarity": "2",
+        "label": "기쁨/행복",
+        "tag": "#기쁜",
+        "confidence": 0.75,
+        "source": "claude"
+    },
+    {
+        "word": "현피",
+        "word_root": "현",
+        "polarity": "-1",
+        "label": "분노/짜증",
+        "tag": "#짜증나는",
+        "confidence": 0.75,
+        "source": "claude"
+    },
+    {
+        "word": "혐짤",
+        "word_root": "혀",
+        "polarity": "-1",
+        "label": "분노/짜증",
+        "tag": "#혐오스러운",
+        "confidence": 0.85,
+        "source": 7
+    },
+    {
+        "word": "호갱",
+        "word_root": "호",
+        "polarity": "-1",
+        "label": "분노/짜증",
+        "tag": "#짜증나는",
+        "confidence": 0.75,
+        "source": "claude"
+    },
+    {
+        "word": "히든카드",
+        "word_root": "히",
+        "polarity": "1",
+        "label": "기쁨/행복",
+        "tag": "#기쁜",
+        "confidence": 0.7,
+        "source": "claude"
+    },
+    {
+        "word": "올ㅋ",
+        "word_root": "올",
+        "polarity": "1"
+    },
+    {
+        "word": "ㄱㅅ",
+        "word_root": "ㄱㅅ",
+        "polarity": "1"
+    },
+    {
+        "word": "ㄱㅇㄷ",
+        "word_root": "ㄱㅇㄷ",
+        "polarity": "1"
+    },
+    {
+        "word": "ㄲㅂ",
+        "word_root": "ㄲㅂ",
+        "polarity": "-1"
+    },
+    {
+        "word": "ㄲㅈ",
+        "word_root": "ㄲㅈ",
+        "polarity": "-1"
+    },
+    {
+        "word": "ㅁㅊ",
+        "word_root": "ㅁㅊ",
+        "polarity": "-1",
+        "label": "분노/짜증",
+        "tag": "#짜증나는",
+        "confidence": 0.7,
+        "source": "claude"
+    },
+    {
+        "word": "ㅇㅈ",
+        "word_root": "ㅇㅈ",
+        "polarity": "1"
+    },
+    {
+        "word": "ㅇㅋ",
+        "word_root": "ㅇㅋ",
+        "polarity": "1"
+    },
+    {
+        "word": "ㅇㅎ",
+        "word_root": "ㅇㅎ",
+        "polarity": "1"
+    },
+    {
+        "word": "ㅈㅅ",
+        "word_root": "ㅈㅅ",
+        "polarity": "-1"
+    },
+    {
+        "word": "ㅗ",
+        "word_root": "ㅗ",
+        "polarity": "-1",
+        "label": "분노/짜증",
+        "tag": "#짜증나는",
+        "confidence": 0.96,
+        "source": "claude"
+    },
+    {
+        "word": "ㅜ",
+        "word_root": "ㅜ",
+        "polarity": "-1",
+        "label": "슬픔/우울",
+        "tag": "#슬픈",
+        "confidence": 0.96,
+        "source": "claude"
+    },
+    {
+        "word": "ㅜㅜ",
+        "word_root": "ㅜㅜ",
+        "polarity": "-1",
+        "label": "슬픔/우울",
+        "tag": "#슬픈",
+        "confidence": 0.96,
+        "source": "claude"
+    },
+    {
+        "word": "ㅜㅡ",
+        "word_root": "ㅜㅡ",
+        "polarity": "-1",
+        "label": "슬픔/우울",
+        "tag": "#슬픈",
+        "confidence": 0.96,
+        "source": "claude"
+    },
+    {
+        "word": "ㅠ",
+        "word_root": "ㅠ",
+        "polarity": "-1",
+        "label": "슬픔/우울",
+        "tag": "#슬픈",
+        "confidence": 0.96,
+        "source": "claude"
+    },
+    {
+        "word": "ㅠㅠ",
+        "word_root": "ㅠㅠ",
+        "polarity": "-1",
+        "label": "슬픔/우울",
+        "tag": "#슬픈",
+        "confidence": 0.96,
+        "source": "claude"
+    },
+    {
+        "word": "ㅡㅡ",
+        "word_root": "ㅡㅡ",
+        "polarity": "-1",
+        "label": "분노/짜증",
+        "tag": "#짜증나는",
+        "confidence": 0.96,
+        "source": "claude"
+    },
+    {
+        "word": "개자식",
+        "word_root": "개자식",
+        "polarity": "-2",
+        "label": "분노/짜증",
+        "tag": "#화난",
+        "confidence": 0.96,
+        "source": "claude"
+    },
+    {
+        "word": "개새끼",
+        "word_root": "개새끼",
+        "polarity": "-2",
+        "label": "분노/짜증",
+        "tag": "#화난",
+        "confidence": 0.96,
+        "source": "claude"
+    },
+    {
+        "word": "그년",
+        "word_root": "그년",
+        "polarity": "-1",
+        "label": "분노/짜증",
+        "tag": "#불쾌한",
+        "confidence": 0.85,
+        "source": "claude"
+    },
+    {
+        "word": "그놈",
+        "word_root": "그놈",
+        "polarity": "-1",
+        "label": "분노/짜증",
+        "tag": "#불쾌한",
+        "confidence": 0.85,
+        "source": "claude"
+    },
+    {
+        "word": "기집년",
+        "word_root": "기",
+        "polarity": "-1",
+        "label": "분노/짜증",
+        "tag": "#욕설",
+        "confidence": 0.85,
+        "source": "claude"
+    },
+    {
+        "word": "니미",
+        "word_root": "니미",
+        "polarity": "-2",
+        "label": "분노/짜증",
+        "tag": "#욕설",
+        "confidence": 0.96,
+        "source": "claude"
+    },
+    {
+        "word": "쌍년",
+        "word_root": "쌍년",
+        "polarity": "-2",
+        "label": "분노/짜증",
+        "tag": "#욕설",
+        "confidence": 0.96,
+        "source": "claude"
+    },
+    {
+        "word": "쌍놈",
+        "word_root": "쌍놈",
+        "polarity": "-2",
+        "label": "분노/짜증",
+        "tag": "#욕설",
+        "confidence": 0.96,
+        "source": "claude"
+    },
+    {
+        "word": "씨부랄",
+        "word_root": "씨",
+        "polarity": "-2",
+        "label": "분노/짜증",
+        "tag": "#욕설",
+        "confidence": 0.96,
+        "source": "claude"
+    },
+    {
+        "word": "씹새끼",
+        "word_root": "씹새끼",
+        "polarity": "-2",
+        "label": "분노/짜증",
+        "tag": "#욕설",
+        "confidence": 0.96,
+        "source": "claude"
+    },
+    {
+        "word": "우라질",
+        "word_root": "우라지",
+        "polarity": "-2",
+        "label": "분노/짜증",
+        "tag": "#욕설",
+        "confidence": 0.96,
+        "source": "claude"
+    },
+    {
+        "word": "잡놈",
+        "word_root": "잡놈",
+        "polarity": "-2",
+        "label": "분노/짜증",
+        "tag": "#욕설",
+        "confidence": 0.96,
+        "source": "claude"
+    },
+    {
+        "word": "무뇌충",
+        "word_root": "무",
+        "polarity": "-2"
+    },
+    {
+        "word": "서글피",
+        "word_root": "스",
+        "polarity": "-2"
+    },
+    {
+        "word": "ㅆㅂ",
+        "word_root": "ㅆㅂ",
+        "polarity": "-1",
+        "label": "분노/짜증",
+        "tag": "#욕설",
+        "confidence": 0.96,
+        "source": "claude"
+    },
+    {
+        "word": "똥꼬충",
+        "word_root": "똥",
+        "polarity": "-2"
+    },
+    {
+        "word": "발연기",
+        "word_root": "발",
+        "polarity": "-1"
+    },
+    {
+        "word": "이뭐병",
+        "word_root": "이",
+        "polarity": "-1",
+        "label": "분노/짜증",
+        "tag": "#짜증나는",
+        "confidence": 0.96,
+        "source": 1
+    },
+    {
+        "word": "오크",
+        "word_root": "오크",
+        "polarity": "-1",
+        "label": "불안/걱정",
+        "tag": "#불안한",
+        "confidence": 0.65,
+        "source": "claude"
+    }
+]
