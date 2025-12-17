@@ -32,7 +32,8 @@ from .scoring_logic.large_dataset_handler import _large_dataset_handler
 current_dir = os.path.dirname(os.path.abspath(__file__))
 
 # .dict 폴더의 JSON 파일 경로
-dict_path = os.path.join(current_dir, "dict", "sentiword_info_final_cleaned.json")
+dict_path = os.path.join(current_dir, "dict", "sentiword_info_cleaned_v1"
+".json")
 
 # 파일 열기
 with open(dict_path, 'r', encoding='utf-8') as f:
@@ -54,13 +55,11 @@ def extract_mood_with_dict(sentences) -> dict:
         sentence = sentence.strip()
 
         # 2. [반복 문자 카운트, 이모지 리스트, 반복 문자 및 불필요한 특수 문자가 제거된 문장]
-        repeated_items, emojis, remove_repeats = _repeated_remover(index, sentence, min_repeats=2, rules=REPETITION_RULES)
-
-        # 필요시) 오탈자 수정
-        # fixed_typo = typo_fixer(remove_repeats) 
+        repeated_items, emojis, remove_repeats = _repeated_remover(index, sentence, min_repeats=3, rules=REPETITION_RULES)
 
         # 3. 형태소 분석 + 품사 Tagging
-        analyze_morpheme = _morpheme_tagger(index, remove_repeats) 
+        analyze_morpheme = _morpheme_tagger(index, remove_repeats)
+        print(f"analyze_morpheme : {analyze_morpheme}")
 
         # 결과 리스트에 넣기
         results_preprocess.append(analyze_morpheme)  # list[list[tuple[str, str]]]
@@ -72,7 +71,7 @@ def extract_mood_with_dict(sentences) -> dict:
     # 1) 원하는 품사만 추출하기
 
     # 감정어 후보군
-    mood_target_pos = {"NNG","VV","VA","MAG"} # 감성사전의 어근과 비교할 : 일반명사, 동사, 형용사, 부사
+    mood_target_pos = {"NNG","VV","VA","MAG","XR"} # 감성사전의 어근과 비교할 : 일반명사, 동사, 형용사, 부사, 어근
     mood_candidate = _pos_filter(results_preprocess, mood_target_pos)
 
     # 부정어 후보군
