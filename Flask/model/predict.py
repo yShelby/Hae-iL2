@@ -55,12 +55,13 @@ def predict_polarity(text):
         return "부정", polarity_probs, pos_prob, neg_prob
 
 # 감정종류 라벨 6
-def predict_6_moods(text, threshold = 0.1):
+def predict_6_moods(text, threshold = 0.05):
     inputs = tokenizer_6(text, return_tensors="pt", padding=True, truncation=True, max_length=512)
     inputs = {k: v.to(device) for k, v in inputs.items()}
     with torch.no_grad():
         logits = model_6(**inputs).logits
-    array_probs = torch.sigmoid(logits).squeeze().cpu().numpy()
+    print(f"model_6(**inputs).logits:{model_6(**inputs).logits}")
+    array_probs = torch.softmax(logits, dim=1).squeeze().cpu().numpy()
 
     # threshold 적용
     filtered_probs = np.where(array_probs >= threshold, array_probs, 0)

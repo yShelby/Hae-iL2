@@ -59,7 +59,6 @@ def extract_mood_with_dict(sentences) -> dict:
 
         # 3. 형태소 분석 + 품사 Tagging
         analyze_morpheme = _morpheme_tagger(index, remove_repeats)
-        print(f"analyze_morpheme : {analyze_morpheme}")
 
         # 결과 리스트에 넣기
         results_preprocess.append(analyze_morpheme)  # list[list[tuple[str, str]]]
@@ -127,6 +126,7 @@ def extract_mood_with_dict(sentences) -> dict:
 
     # 4. 결과 도출
     results_score = {"polarity": polarity_score, "label": label_list, "tag": tag_list}
+    print(f"dict results_score:{results_score}")
     
     return results_score
 

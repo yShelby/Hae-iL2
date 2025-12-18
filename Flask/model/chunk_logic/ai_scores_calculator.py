@@ -2,7 +2,7 @@ from model.predict import two_stage_mood_classification # 분석 모델
 from dictionary.scoring_logic.percentage_calculator import _percentage_calculator # percentage 계산
 from dictionary.scoring_logic.neutral_creator import _neutral_creator # percentage 계산
 
-def _ai_weighted_calculator(chunks, tokens, total_token, top_k = 3, min_display_pct = 10) :
+def _ai_scores_calculator(chunks, tokens, total_token, top_k = 3, min_display_pct = 5) :
     weighted_polarity_sum = 0
     weighted_labels_sum = {} # dict 형태
 
@@ -25,16 +25,20 @@ def _ai_weighted_calculator(chunks, tokens, total_token, top_k = 3, min_display_
 
     # 2-2. 가중 평균 probability of labels 계산
     weighted_labels = {label: prob_sum / total_token for label, prob_sum in weighted_labels_sum.items()} # dictionary comprehension
+    print(f"weighted_labels: {weighted_labels}")
 
     # 2-3. Top_k 선택 (label을 빈도수로 정렬 후 top_k)
     sorted_probs = sorted(weighted_labels.items(), key=lambda x: x[1], reverse=True)[:top_k]  # [(기쁨/행복, 0.6), (슬픔/우울, 0.3)...]
+    print(f"sorted_probs: {sorted_probs}")
 
     # 2-4. Percentage 계산
     total_probs = sum(prob for _, prob in sorted_probs) # probabilities 총합
     pct_labels = _percentage_calculator(sorted_probs, total_probs)
+    print(f"pct_labels: {pct_labels}")
 
-    # 2-5. 중립/기타 처리 (min_display_pct = 10%)
+    # 2-5. 중립/기타 처리 (min_display_pct = 5%)
     label_results = _neutral_creator(pct_labels, min_display_pct)
+    print(f"pct_labels: {pct_labels}")
 
     return {
         "polarity_result" : polarity_result,

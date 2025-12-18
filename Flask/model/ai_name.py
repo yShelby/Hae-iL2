@@ -1,4 +1,6 @@
 # ai 로드 파일
+# HUGGING FACE API 사용 제한으로 인해 로컬로 모델 1회 다운로드 후 사용
+
 import os
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
 import torch

@@ -4,7 +4,7 @@ import time
 from dictionary.preprocessing_logic.whitespace_replacer import _whitespace_replacer
 from dictionary.preprocessing_logic.sentence_splitter import _sentence_splitter
 from model.chunk_logic.ai_chunker import _ai_chunker
-from model.chunk_logic.ai_weighted_calculator import _ai_weighted_calculator
+from model.chunk_logic.ai_scores_calculator import _ai_scores_calculator
 
 from dictionary.processing import extract_mood_with_dict
 from model.tags import make_tags_prob_and_map
@@ -35,7 +35,7 @@ class MoodDiaryService:
 
         #==================================================#
 
-        # AI LLM 모델 호출 (최대 2번 재시도)
+        # AI LLM 모델 로컬 호출 (최대 2번 재시도)
         max_retries = 2 # 최대 2번 순환
         retry_count = 0 # 초기값
 
@@ -43,7 +43,7 @@ class MoodDiaryService:
 
             start_time = time.time()  # 시작 시간 기록
 
-            try: # AI LLM 모델 호출
+            try: # AI LLM 모델 로컬 호출
                 # raise Exception("ai LLM 파인튜닝 중")
 
                 # text chunking
@@ -51,7 +51,7 @@ class MoodDiaryService:
                 print(f"tokens : {tokens}, total_tokens : {total_token}")
 
                 # AI LLM 분석 (가중치 : 토큰 수)
-                result = _ai_weighted_calculator(chunks, tokens, total_token)
+                result = _ai_scores_calculator(chunks, tokens, total_token)
                 # 사전 분석 (태그 추출 목적)
                 result_dict = extract_mood_with_dict(sentences)
 
@@ -86,7 +86,7 @@ class MoodDiaryService:
 
                 return return_result
 
-            except ConnectionError as network_error:
+            except ConnectionError as network_error: # 모델 다운로드 오류
                 retry_count += 1
                 print(f"네트워크 오류 발생 (시도 {retry_count}/{max_retries}): {network_error}")
                 if retry_count < max_retries:
@@ -104,7 +104,7 @@ class MoodDiaryService:
 
         # ==================================================#
 
-        try : # 호출이 안 될 시 감성사전 분석으로 전환
+        try : # AI 분석에서 예외 발생 시 감성사전 분석으로 전환
             result = extract_mood_with_dict(diary_text)
 
             polarity = result.get("polarity", 0)
