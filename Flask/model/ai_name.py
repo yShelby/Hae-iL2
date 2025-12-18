@@ -9,7 +9,7 @@ tokenizer_2C = AutoTokenizer.from_pretrained(model_name) # Max_length : 512 toke
 model_2C = AutoModelForSequenceClassification.from_pretrained(model_name)
 model_2C.eval()
 
-checkpoint_dir_6 = "Jinuuuu/KoELECTRA_fine_tunning_emotion"
+checkpoint_dir_6 = "yShelby/KoELECTRA_fine_tunning_mood"
 
 tokenizer_6 = AutoTokenizer.from_pretrained(checkpoint_dir_6) # Max_length : 512 tokens
 model_6 = AutoModelForSequenceClassification.from_pretrained(checkpoint_dir_6)

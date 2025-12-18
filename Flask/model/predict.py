@@ -4,6 +4,7 @@ from sympy import Integer
 from model.ai_name import tokenizer_6, model_6, device, tokenizer_2C, model_2C
 from model.utils import label2mood_6
 import torch
+import numpy as np
 
 def predict_polarity(text):
 
@@ -53,24 +54,30 @@ def predict_polarity(text):
         print("부정 판단")
         return "부정", polarity_probs, pos_prob, neg_prob
 
-# 세부감정 라벨 6
-def predict_6_moods(text, top_k=3):
+# 감정종류 라벨 6
+def predict_6_moods(text, threshold = 0.1):
     inputs = tokenizer_6(text, return_tensors="pt", padding=True, truncation=True, max_length=512)
     inputs = {k: v.to(device) for k, v in inputs.items()}
     with torch.no_grad():
         logits = model_6(**inputs).logits
-    probs = torch.softmax(logits, dim=1).squeeze().cpu().numpy()
-    top_idx = probs.argsort()[::-1][:top_k]
-    return [(label2mood_6[idx], round(float(probs[idx]), 2)) for idx in top_idx], probs
+    array_probs = torch.sigmoid(logits).squeeze().cpu().numpy()
 
-# 긍정/부정 & 세부 라벨
+    # threshold 적용
+    filtered_probs = np.where(array_probs >= threshold, array_probs, 0)
+
+    # labels mapping with probs (tuple)
+    mood_probs = [(label2mood_6[idx], round(float(filtered_probs[idx]), 2)) for idx in range(len(filtered_probs))]
+
+    return mood_probs, array_probs
+
+# 긍정/부정 & 감정종류 라벨
 def two_stage_mood_classification(text):
     # polarity, polarity_probs = predict_polarity(text)
 
     polarity, polarity_probs, pos_prob, neg_prob = predict_polarity(text)
     print(f"predict.py :: polarity: {polarity}, polarity_probs: {polarity_probs}")
-    top_labels, label_probs = predict_6_moods(text)
-    print(f"predict.py ::top_labels: {top_labels}")
+    mood_probs, array_probs = predict_6_moods(text)
+    print(f"predict.py ::mood_probs: {mood_probs}")
     polarity_result = int(round((pos_prob - neg_prob)*100, 0))
     
         # 여기 mood_probs는 numpy.ndarray임
@@ -84,8 +91,8 @@ def two_stage_mood_classification(text):
                 "neg_prob": float(neg_prob)
             },
             "polarity_result" : polarity_result,
-            "labels": top_labels, # tuple (label, percentage)
-            "label_probs": label_probs
+            "labels": mood_probs, # tuple (label, probs)
+            "probs": array_probs
         }
 
 
